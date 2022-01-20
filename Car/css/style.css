@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;1,300;1,400&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+/*------------------------------ common css ------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p,
+span,
+a {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #000;
+}
+
+em {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    margin: 20px 0px 20px 0px;
+    color: #111111;
+}
+
+
+/*------------------------------ hero area ------------------------------*/
+
+.hero-heading h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.hero-heading em {
+    font-weight: 600;
+}
+
+
+/*------------------------------ future area ------------------------------*/
+
+#future {
+    padding: 100px 0px;
+}
+
+.futureimg img {
+    width: 150px;
+}
+
+.futureimg h1 {
+    margin-top: -88px;
+    margin-left: 73px;
+}
+
+.future-content {
+    display: block;
+    margin: 50px 10px 10px 77px;
+}
+
+.mbtn {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 0px;
+    color: #fff;
+    margin: 30px 0px 0px 78px;
+}
+
+.one {
+    background: linear-gradient(to right, #84abec, #cf84fb);
+}
+
+
+/*------------------------------ machine area ------------------------------*/
+
+.machine-content-box {
+    padding-right: 205px;
+}
+
+.btn-two {
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 0px;
+}
+
+
+/*------------------------------ electronics area ------------------------------*/
+
+#electronics {
+    padding: 100px 0px;
+}
+
+.electronics-content {
+    transform: translate(-12%, 10%);
+}
+
+.three {
+    background: linear-gradient(to right, #35ced0, #84abec);
+}
+
+
+/*------------------------------ looks area ------------------------------*/
+
+#looks {
+    padding-bottom: 120px;
+}
+
+.looks-content {
+    padding: 180px 0px 0px 0px;
+}
+
+
+/*------------------------------ team area ------------------------------*/
+
+#team {
+    background: linear-gradient(-90deg, #cf84fb, #35ced0);
+    z-index: 1;
+}
+
+.team {
+    padding-right: 100px;
+}
+
+.team p {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.9rem;
+    transform: translate(0%, 50%);
+    padding-right: 52px;
+}
+
+.team-content {
+    background: url(../image/team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 590px;
+}
+
+.inner-team-content {
+    transform: translate(37%, 108%);
+}
+
+
+/*------------------------------ future two area ------------------------------*/
+
+.future-img-two img {
+    transform: translate(0%, -6.5%);
+}
+
+
+/*------------------------------ gallery area ------------------------------*/
+
+.gallery-img img {
+    width: 480px;
+    height: 330px;
+}
+
+
+/*------------------------------ footer area ------------------------------*/
+
+#footer {
+    background: #24BDC9;
+    padding: 100px 0px 50px 0px;
+}
+
+.footer-box img {
+    width: 100px;
+}
+
+.footer-box p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(255 255 255 / 70%);
+}
+
+.footer-box-two a {
+    color: rgb(255 255 255 / 70%);
+    display: block;
+    line-height: 2.5rem;
+}
+
+.address-info p {
+    color: rgb(255 255 255 / 70%);
+}
+
+input#email {
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 0;
+}
+
+#iconbtn {
+    padding: 10px 40px;
+    background: #f42f2c;
+    color: #fff;
+    border-radius: 50px;
+    border: 0;
+    margin-left: -82px;
+    transition: 0.5s;
+}
+
+#iconbtn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.copyright {
+    color: rgb(255 255 255 / 70%);
+}
